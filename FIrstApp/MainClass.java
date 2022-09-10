@@ -9,7 +9,7 @@ public class MainClass {
         System.out.print("Input a number: ");
         int num = in.nextInt();
         if (num>7) {
-            System.out.println("Привет");
+        System.out.println("Привет");
         }
         in.close();
     }
