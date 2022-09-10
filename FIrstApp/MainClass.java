@@ -1,8 +1,16 @@
 package FIrstApp;
 
+import java.util.Scanner;
 
 public class MainClass {
+
     public static void main(String[] args) {
-        System.out.println("Hello Java 3!");
+        Scanner in = new Scanner(System.in);
+        System.out.print("Input a number: ");
+        int num = in.nextInt();
+        if (num>7) {
+            System.out.println("Привет");
+        }
+        in.close();
     }
 }
